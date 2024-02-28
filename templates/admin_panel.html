@@ -1,53 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Panel</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Admin Panel</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-</head>
+  <body class="bg-gray-100">
+    <div class="container mx-auto p-8 bg-white rounded-lg shadow-md mt-8">
+      <h2 class="text-3xl font-bold mb-8 text-gray-800">Admin Panel</h2>
 
-<body class="bg-gray-100">
+      <!-- Users Section -->
 
-  <div class="container mx-auto p-8 bg-white rounded-lg shadow-md mt-8">
-    <h2 class="text-3xl font-bold mb-8 text-gray-800">Admin Panel</h2>
+	  <h3 class="text-2xl font-semibold mb-4 text-gray-700">Users</h3>
 
-    <!-- Users Section -->
-    <div class="mb-8">
-      <h3 class="text-2xl font-semibold mb-4 text-gray-700">Users</h3>
-      <ul class="list-disc pl-4">
-        <!-- Display users here -->
-        <li class="text-gray-600">User 1</li>
-        <li class="text-gray-600">User 2</li>
-        <li class="text-gray-600">User 3</li>
-      </ul>
+      <select id="userDropdown">
+        <option value="">Select a user...</option>
+      </select>
+
+      <!-- Posts Section -->
+      <div class="mb-8">
+        <h3 class="text-2xl font-semibold mb-4 text-gray-700" id="">Posts</h3>
+		<div id="posts"></div>
+      </div>
+
+      <!-- Articles Section -->
+      <div>
+        <h3 class="text-2xl font-semibold mb-4 text-gray-700">Articles</h3>
+        <div id="articles"></div>
+      </div>
     </div>
+    <script type="module" >
+      const delPost = async (post_id) => {
+	let response = await fetch(`http://localhost:8000/posts/${post_id}`, {
+		method: 'DELETE'
+	})
+	response = await response.json();
+}
+const delArticle = async (article_id) => {
+	let response = await fetch(`http://localhost:8000/articles/${article_id}`, {
+		method: 'DELETE'
+	})
+	response = await response.json();
+}
 
-    <!-- Posts Section -->
-    <div class="mb-8">
-      <h3 class="text-2xl font-semibold mb-4 text-gray-700">Posts</h3>
-      <ul class="list-disc pl-4">
-        <!-- Display posts here -->
-        <li class="text-gray-600">Post 1</li>
-        <li class="text-gray-600">Post 2</li>
-        <li class="text-gray-600">Post 3</li>
-      </ul>
-    </div>
+document.addEventListener('DOMContentLoaded', function () {
+	const dropdown = document.getElementById('userDropdown');
 
-    <!-- Articles Section -->
-    <div>
-      <h3 class="text-2xl font-semibold mb-4 text-gray-700">Articles</h3>
-      <ul class="list-disc pl-4">
-        <!-- Display articles here -->
-        <li class="text-gray-600">Article 1</li>
-        <li class="text-gray-600">Article 2</li>
-        <li class="text-gray-600">Article 3</li>
-      </ul>
-    </div>
+	// Fetch usernames from the backend
+	fetch('http://localhost:8000/usernames', {
+		method: 'GET'
+	})
+		.then(response => response.json())
+		.then(data => {
+			console.log(data);
+			// Populate the dropdown with usernames
+			data.usernames.forEach(user => {
+				const option = document.createElement('option');
+				option.value = user; // Assuming user has an 'id' property
+				option.textContent = user; // Assuming user has a 'username' property
+				dropdown.appendChild(option);
+			});
+		})
+		.catch(error => {
+			console.error('Error fetching users:', error);
+		});
 
-  </div>
+	// Event listener for dropdown change
+	dropdown.addEventListener('change', function () {
+		const selectedUserName = dropdown.value;
+		console.log(selectedUserName);
+		fetch(`http://localhost:8000/user_id/${selectedUserName}`, {
+			method: 'GET'
+		}).then(response => response.json())
+			.then(data => {
+				const selectedUserId = data.user_id;
 
-</body>
+				fetch(`http://localhost:8000/user/${selectedUserId}/posts`, {
+					method: 'GET'
+				})
+					.then(response => response.json())
+					.then(data => {
+						// Display posts on the page
+						console.log(data.posts);
+						const postsContainer = document.getElementById('posts');
+						postsContainer.innerHTML = ''; // Clear previous posts
+						data.posts.forEach(post => {
+							const postCard = document.createElement('div');
+							postCard.style.border = '1px solid #ccc'; // Add border for the card
+							postCard.style.borderRadius = '5px'; // Add border radius for rounded corners
+							postCard.style.padding = '10px'; // Add padding for spacing
+							postCard.style.marginTop = '20px'; // Add margin for spacing between posts
 
+							// Create elements for the title, content, and delete button
+							const titleElement = document.createElement('h2');
+							titleElement.textContent = post.title;
+
+							const contentElement = document.createElement('p');
+							contentElement.textContent = post.content;
+
+							const deleteButton = document.createElement('button');
+							deleteButton.textContent = 'Delete';
+							deleteButton.style.marginTop = '5px'; // Add margin for spacing
+							deleteButton.style.backgroundColor = '#ff0000'; // Change background color
+							deleteButton.style.color = '#fff'; // Change text color
+
+							// Add event listener to delete button
+							deleteButton.addEventListener('click', () => {
+								// Remove the post card from the DOM
+								delPost(post.id);
+								window.location.reload();
+							});
+
+							// Append title, content, and delete button to the post card
+							postCard.appendChild(titleElement);
+							postCard.appendChild(contentElement);
+							postCard.appendChild(deleteButton);
+
+							// Append the post card to the posts container
+							postsContainer.appendChild(postCard);
+						});
+
+						fetch(`http://localhost:8000/articles/${selectedUserId}`, {
+							method: 'GET'
+						})
+							.then(response => response.json())
+							.then(data => {
+								// Display articles on the page
+								console.log(data);
+								const articlesContainer = document.getElementById('articles')
+								articlesContainer.innerHTML = ''; // Clear previous articles
+								data.forEach(article => {
+									// Create a div element for the article card
+									const articleCard = document.createElement('div');
+									articleCard.style.border = '1px solid #ccc'; // Add border for the card
+									articleCard.style.borderRadius = '5px'; // Add border radius for rounded corners
+									articleCard.style.padding = '10px'; // Add padding for spacing
+
+									// Create elements for the title, content, and delete button
+									const titleElement = document.createElement('h2');
+									titleElement.textContent = article.title;
+
+									const contentElement = document.createElement('p');
+									contentElement.textContent = article.content;
+
+									const deleteButton = document.createElement('button');
+									deleteButton.textContent = 'Delete';
+									deleteButton.style.marginTop = '5px'; // Add margin for spacing
+									deleteButton.style.backgroundColor = '#ff0000'; // Change background color
+									deleteButton.style.color = '#fff'; // Change text color
+
+									// Add event listener to delete button
+									deleteButton.addEventListener('click', () => {
+										// Remove the article card from the DOM
+										delArticle(article.id);
+										window.location.reload();
+									});
+
+									// Append title, content, and delete button to the article card
+									articleCard.appendChild(titleElement);
+									articleCard.appendChild(contentElement);
+									articleCard.appendChild(deleteButton);
+
+									// Append the article card to the articles container
+									articlesContainer.appendChild(articleCard);
+								});
+
+							})
+							.catch(error => {
+								console.error('Error fetching articles:', error);
+							});
+					})
+					.catch(error => {
+						console.error('Error fetching posts:', error);
+					});
+
+				// Fetch articles of the selected user
+
+			})
+	});
+});
+
+    </script>
+  </body>
 </html>

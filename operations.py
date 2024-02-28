@@ -1,5 +1,6 @@
 from database import cursor as cu, conn as cn
 import bcrypt
+from typing import List, Optional
 
 
 def check_user_email_exists(email):
@@ -67,7 +68,7 @@ def add_admin(username, email, password):
         print("Email already exists for an admin. Please choose a different email.")
 
 def check_admin_credentials(admin_email, password):
-    # Fetch the hashed password from the database for the provided admin_email
+    # Fetch the hashed password from the database for the provided admin-email
     query = '''
         SELECT hashed_password FROM admins
         WHERE admin_email = ?
@@ -80,9 +81,124 @@ def check_admin_credentials(admin_email, password):
         return bcrypt.checkpw(password.encode('utf-8'), hashed_password_from_db)
 
     return False
-#add_user("sami","sasla","sasa","00202020")
 
 
+def getallusernames() -> List[str]:
+    query = '''
+        SELECT username FROM users
+    '''
+    cu.execute(query)
+    usernames = cu.fetchall()
 
-# Example of using the function
+    userlist = [username[0] for username in usernames]
 
+    return userlist
+
+
+def getuser_id_byusername(username: str) -> Optional[int]:
+    query = '''
+        SELECT user_id FROM users
+        WHERE username = ?
+    '''
+    cu.execute(query, (username,))
+    result = cu.fetchone()
+
+    return result[0] if result else None
+
+def get_titles_and_contents_by_user_id(user_id: int) -> List[dict]:
+    query = '''
+        SELECT title, content FROM posts
+        WHERE user_id = ?
+    '''
+    cu.execute(query, (user_id,))
+    posts = cu.fetchall()
+
+    posts_list = [
+        {
+            "title": post[0],
+            "content": post[1],
+        }
+        for post in posts
+    ]
+
+    return posts_list
+
+def deleteposts_by_user_id(user_id: int):
+    query = '''
+        DELETE FROM posts
+        WHERE user_id = ?
+    '''
+    cu.execute(query, (user_id,))
+    cn.commit()
+    print(f"All posts by user_id {user_id} deleted successfully.")
+
+def delete_user(user_id: int):
+    query = '''
+        DELETE FROM users
+        WHERE user_id = ?
+    '''
+    cu.execute(query, (user_id,))
+    cn.commit()
+    print(f"User with user_id {user_id} deleted successfully.")
+
+def get_titles_and_contents_by_user_id_articles(user_id: int) -> List[dict]:
+    query = '''
+        SELECT title, content FROM articles
+        WHERE user_id = ?
+    '''
+    cu.execute(query, (user_id,))
+    articles = cu.fetchall()
+
+    articles_list = [
+        {
+            "title": article[0],
+            "content": article[1],
+        }
+        for article in articles
+    ]
+
+    return articles_list
+
+def delete_articles_by_user_id(user_id: int):
+    query = '''
+        DELETE FROM articles
+        WHERE user_id = ?
+    '''
+    cu.execute(query, (user_id,))
+    cn.commit()
+    print(f"All articles by user_id {user_id} deleted successfully.")
+
+
+def deletepost(post_id:int):
+    query='''
+    DELETE FROM posts 
+    where post_id = ?
+    '''
+    cu.execute(query,(post_id,))
+    cu.commit()
+
+def deletearticle(article_id:int):
+    query='''
+    DELETE FROM articles
+    where article_id = ?
+    '''
+    cu.execute(query,(article_id,))
+    cu.commit()
+
+def addposts(post_id,user_id,title,content):
+    query = '''
+                 INSERT INTO posts (post_id, user_id, title, content)
+                 VALUES (?, ?, ?, ?)
+             '''
+    cu.execute(query, (post_id, user_id, title, content))
+    cn.commit()
+    print("User added successfully.")
+
+def addarticles(article_id,user_id,title,content):
+    query = '''
+                     INSERT INTO articles (article_id, user_id, title, content)
+                     VALUES (?, ?, ?, ?)
+                 '''
+    cu.execute(query, (article_id, user_id, title, content))
+    cn.commit()
+    print("User added successfully.")
