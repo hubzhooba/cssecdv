@@ -1,4 +1,3 @@
-from typing import List
 from fastapi import Depends, HTTPException, FastAPI,Query
 #import sqlalchemy.orm as _orm
 import fastapi as _fastapi
@@ -7,7 +6,6 @@ from fastapi.responses import HTMLResponse,RedirectResponse, JSONResponse
 from fastapi.templating import Jinja2Templates
 import operations as op
 from fastapi.security import APIKeyQuery
-from typing import List, Optional
 
 
 templates = Jinja2Templates(directory="templates")
