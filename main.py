@@ -1,5 +1,4 @@
-from fastapi import Depends, HTTPException, FastAPI,Query
-#import sqlalchemy.orm as _orm
+from fastapi import Depends, HTTPException, FastAPI
 import fastapi as _fastapi
 from fastapi import HTTPException, Form
 from fastapi.responses import HTMLResponse,RedirectResponse, JSONResponse
@@ -91,13 +90,12 @@ def verify_security_key(api_key: str = Depends(API_KEY_QUERY_PARAMETER)):
 def admin_register_page(request: _fastapi.Request):
     return templates.TemplateResponse("admin_register.html", {"request": request})
 
-@app.post("/admin/register", response_class=HTMLResponse, dependencies=[Depends(verify_security_key)])
+@app.post("/admin/register", response_class=HTMLResponse)
 def admin_register(
         request: _fastapi.Request,
         username: str = Form(...),
         email: str = Form(...),
         password: str = Form(...),
-        key: str = Depends(verify_security_key),  # Ensure key is present and valid
 ):
     if op.check_admin_email_exists(email):
         return templates.TemplateResponse("admin_register.html", {"request": request, "message": "Email already exists for an admin. Please choose a different email."})
