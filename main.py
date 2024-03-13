@@ -5,7 +5,10 @@ from fastapi.responses import HTMLResponse,RedirectResponse, JSONResponse
 from fastapi.templating import Jinja2Templates
 import operations as op
 from fastapi.security import APIKeyQuery
+from starlette.middleware.sessions import SessionMiddleware
 
+
+# comment
 
 templates = Jinja2Templates(directory="templates")
 
@@ -20,22 +23,38 @@ app.add_middleware(
     allow_methods=["GET", "POST", "PUT", "DELETE"],
     allow_headers=["*"],
 )
-
+##done
 
 @app.get("/login", response_class=HTMLResponse)
 def login_page(request: _fastapi.Request):
     return templates.TemplateResponse("login.html", {"request": request})
 
+app.add_middleware(SessionMiddleware, secret_key="some-random-key")
+
+templates = Jinja2Templates(directory="templates")
+
+# Use sessions to store user_id
 @app.post("/login", response_class=HTMLResponse)
 def login(request: _fastapi.Request, email: str = Form(...), password: str = Form(...)):
-    if op.check_user_credentials(email, password):
-        # If credentils are correct, redirect to register page
-        print("Crendtails are true")
-        return RedirectResponse("/register")
+    user_id = op.check_user_credentials(email, password)
+    if user_id is not False:
+        # Store user_id in session
+        request.session['user_id'] = user_id
+        return RedirectResponse("/user_page",  status_code=303)
     else:
-        # If credentials are incorrect, reload login page
-        print("Credentails are false")
-        return templates.TemplateResponse("login.html", {"request": request, "message": "Invalid email or password"})
+        # Handle invalid credentials
+        raise HTTPException(status_code=401, detail="Invalid credentials")
+
+@app.get("/user_page", response_class=HTMLResponse)
+def user_page(request: _fastapi.Request):
+    # Fetch user details or any other necessary data based on session user_id
+    user_id = request.session.get('user_id')
+    if user_id is None:
+        # Handle if user_id is not found in session
+        raise HTTPException(status_code=401, detail="Unauthorized")
+    
+    # Render the user page template with the fetched details
+    return templates.TemplateResponse("user_page.html", {"request": request, "user_id": user_id})
 @app.get("/register", response_class=HTMLResponse)
 def register_page(request: _fastapi.Request):
     return templates.TemplateResponse("register.html", {"request": request})
@@ -79,7 +98,7 @@ def admin_login(request: _fastapi.Request, email: str = Form(...), password: str
 API_KEY_QUERY_PARAMETER = APIKeyQuery(name="key", auto_error=False)
 
 
-SECURITY_KEY = "hoobadooba"
+SECURITY_KEY = "hooba"
 
 def verify_security_key(api_key: str = Depends(API_KEY_QUERY_PARAMETER)):
     if api_key is None or api_key != SECURITY_KEY:
@@ -154,11 +173,65 @@ def delete_articles_by_user_id_endpoint(user_id: int):
     op.delete_articles_by_user_id(user_id)
     return {"message": f"All articles for user_id {user_id} deleted successfully."}
 
-@app.delete("/posts/{post_id}")
+@app.delete("/posts/post/{post_id}")
 def deletepostby_id(post_id: int ):
     op.deletepost(post_id)
 
-@app.delete("/articles/{article_id}")
+@app.delete("/articles/article/{article_id}")
 def deletearticleby_id(article_id:int):
     op.deletearticle(article_id)
 
+@app.post("/add-post", response_class=JSONResponse)
+def add_post_endpoint(
+    user_id: int = Form(...),
+    title: str = Form(...),
+    content: str = Form(...),
+):
+    op.add_post(user_id, title, content)
+    return JSONResponse(content={"message": "Post added successfully."}, status_code=200)
+
+@app.post("/add-article", response_class=JSONResponse)
+def add_article_endpoint(
+    user_id: int = Form(...),
+    title: str = Form(...),
+    content: str = Form(...),
+):
+    op.add_article(user_id, title, content)
+    return JSONResponse(content={"message": "Article added successfully."}, status_code=200)
+
+@app.put("/edit-post/{post_id}", response_class=JSONResponse)
+def edit_post_endpoint(
+    post_id: int,
+    title: str = Form(...),
+    content: str = Form(...),
+):
+    op.edit_post(post_id, title, content)
+    return JSONResponse(content={"message": f"Post with post_id {post_id} edited successfully."}, status_code=200)
+
+@app.put("/edit-article/{article_id}", response_class=JSONResponse)
+def edit_article_endpoint(
+    article_id: int,
+    title: str = Form(...),
+    content: str = Form(...),
+):
+    op.edit_article(article_id, title, content)
+    return JSONResponse(content={"message": f"Article with article_id {article_id} edited successfully."}, status_code=200)
+
+@app.post("/change-password", response_class=JSONResponse)
+def change_password_endpoint(
+    user_id: int = Form(...),
+    new_password: str = Form(...),
+):
+    try:
+        # Call the existing function to change the user password
+        op.change_user_password(user_id, new_password)
+
+        return JSONResponse(content={"message": "Password changed successfully"}, status_code=200)
+
+    except Exception as e:
+        return JSONResponse(content={"error": str(e)}, status_code=500)
+
+@app.get("/username/{user_id}", response_class=JSONResponse)
+def getusernamebyid(user_id: int):
+    username = op.getusername_by_id(user_id)
+    return JSONResponse(content={"username": username}, status_code=200)

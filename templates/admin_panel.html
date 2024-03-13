@@ -16,11 +16,16 @@
 
       <!-- Users Section -->
 
+      <h3 class="text-2xl font-semibold mb-4 text-gray-700">
+        Total Users: <span id="total_users"></span>
+      </h3>
       <h3 class="text-2xl font-semibold mb-4 text-gray-700">Users</h3>
 
       <select id="userDropdown">
         <option value="">Select a user...</option>
       </select>
+
+      <button id="deleteUser" style="display: none">Delete User</button>
 
       <!-- Posts Section -->
       <div class="mb-8">
@@ -37,15 +42,18 @@
     <script>
       const delPost = async (post_id) => {
         console.log(post_id);
-        let response = await fetch(`http://localhost:8000/posts/${post_id}`, {
-          method: "DELETE",
-        });
+        let response = await fetch(
+          `http://localhost:8000/posts/post/${post_id}`,
+          {
+            method: "DELETE",
+          }
+        );
         response = await response.json();
       };
       const delArticle = async (article_id) => {
         console.log(article_id);
         let response = await fetch(
-          `http://localhost:8000/articles/${article_id}`,
+          `http://localhost:8000/articles/article/${article_id}`,
           {
             method: "DELETE",
           }
@@ -63,11 +71,16 @@
           .then((response) => response.json())
           .then((data) => {
             console.log(data);
-            // Populate the dropdown with usernames
+
+            const total_users = document.getElementById("total_users");
+            total_users.textContent = data.usernames.length;
+            // Populate the dropdown with usernames and delete buttons
             data.usernames.forEach((user) => {
               const option = document.createElement("option");
-              option.value = user; // Assuming user has an 'id' property
-              option.textContent = user; // Assuming user has a 'username' property
+              option.value = user;
+              option.textContent = user;
+
+              // Append the delete button to the option element
               dropdown.appendChild(option);
             });
           })
@@ -85,6 +98,25 @@
             .then((response) => response.json())
             .then((data) => {
               const selectedUserId = data.user_id;
+
+              const delUser = document.getElementById("deleteUser");
+              delUser.style.display = "block";
+              delUser.style.backgroundColor = "red";
+              delUser.style.color = "white";
+              delUser.style.padding = "5px";
+              delUser.style.borderRadius = "5px";
+
+              delUser.addEventListener("click", function () {
+                if (
+                  confirm(`Are you sure to delete user ${selectedUserName}?`)
+                ) {
+                  fetch(`http://localhost:8000/user/${selectedUserId}`, {
+                    method: "DELETE",
+                  }).then((response) => response.json());
+                }
+
+                window.location.reload();
+              });
 
               fetch(`http://localhost:8000/user/${selectedUserId}/posts`, {
                 method: "GET",
@@ -114,6 +146,8 @@
                     deleteButton.style.marginTop = "5px"; // Add margin for spacing
                     deleteButton.style.backgroundColor = "#ff0000"; // Change background color
                     deleteButton.style.color = "#fff"; // Change text color
+                    deleteButton.style.borderRadius = "3px";
+                    deleteButton.style.padding = "5px";
 
                     // Add event listener to delete button
                     deleteButton.addEventListener("click", async () => {

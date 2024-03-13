@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Panel</title>
+</head>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #444;
+  }
+
+  .post-container,
+  .article-container {
+    margin-bottom: 20px;
+  }
+
+  .post-container h4,
+  .article-container h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 8px;
+  }
+
+  .post-container p,
+  .article-container p {
+    font-size: 1rem;
+    color: #666;
+  }
+
+  .deleteButton,
+  .editButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  .deleteButton:hover,
+  .editButton:hover {
+    background-color: #0056b3;
+  }
+
+  #editModal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+  }
+
+  #editModal input,
+  #editModal textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  #saveEdit {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  #saveEdit:hover {
+    background-color: #218838;
+  }
+
+  /* Modal */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 20% auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    max-width: 600px;
+  }
+
+  /* Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* Buttons */
+  .add-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+  }
+
+  .save-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .add-button:hover,
+  .save-button:hover {
+    background-color: #0056b3;
+  }
+</style>
+
+<body>
+  <!-- Posts Section -->
+
+  <div class="container" style="display: flex; justify-content: flex-end">
+    <button style="
+          background-color: red;
+          color: white;
+          border: none;
+          padding: 5px 10px;
+          border-radius: 4px;
+          cursor: pointer;
+          margin: 10px;
+        " id="changepass">
+      Change Password
+    </button>
+  </div>
+  <div class="container" style="display: flex; justify-content: center">
+    <h2 id="user_name"></h2>
+  
+  </div>
+  <div class="container" style="
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      ">
+    <!-- Add Post Button -->
+    <button id="addPostButton" class="add-button">Add New Post</button>
+
+    <!-- Add Article Button -->
+    <button id="addArticleButton" class="add-button">Add New Article</button>
+    <!-- Posts Section -->
+    <div class="post-container">
+      <h3 id="postsTitle">My Posts</h3>
+      <div id="posts"></div>
+    </div>
+
+    <!-- Articles Section -->
+    <div class="article-container">
+      <h3>My Articles</h3>
+
+      <div id="articles"></div>
+    </div>
+  </div>
+
+  <!-- Modal for adding a new post -->
+  <!-- Modal for adding a new post -->
+  <div id="addPostModal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closePostModal">&times;</span>
+      <h2>Add New Post</h2>
+      <input type="text" id="newPostTitle" placeholder="Enter Post Title" />
+      <textarea id="newPostContent" placeholder="Enter Post Content"></textarea>
+      <button id="savePost" class="save-button">Save Post</button>
+    </div>
+  </div>
+
+  <!-- Modal for adding a new article -->
+  <div id="addArticleModal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeArticleModal">&times;</span>
+      <h2>Add New Article</h2>
+      <input type="text" id="newArticleTitle" placeholder="Enter Article Title" />
+      <textarea id="newArticleContent" placeholder="Enter Article Content"></textarea>
+      <button id="saveArticle" class="save-button">Save Article</button>
+    </div>
+  </div>
+
+  <!-- Modal for Editing -->
+  <div id="editModal" style="display: none">
+    <input type="text" id="editTitle" />
+    <textarea id="editContent"></textarea>
+    <button id="saveEdit">Save</button>
+    <button id="closeEdit">close</button>
+  </div>
+
+  <script>
+    // Fetch articles and posts based on user ID from localStorage
+    document.addEventListener("DOMContentLoaded", function () {
+      const url = window.location.href;
+      // Split the URL by '/'
+      const parts = url.split("/");
+      // The user ID is expected to be the last part of the URL
+      const userId = "{{ user_id }}";
+      console.log(userId)
+
+      let editid;
+      let edittype;
+
+      let articles = [];
+
+      let posts = [];
+
+      fetch(`http://localhost:8000/username/${userId}`, {
+        method: 'GET'
+      }).then((response)=>response.json())
+      .then((data)=>{
+        const username = document.getElementById('user_name'); 
+        username.textContent = data.username; 
+      })
+
+      fetch(`http://localhost:8000/user/${userId}/posts`, {
+        method: "GET",
+      })
+        .then((response) => response.json())
+        .then((data) => {
+          posts = data.posts;
+          fetch(`http://localhost:8000/articles/${userId}`, {
+            method: "GET",
+          })
+            .then((response) => response.json())
+            .then((data) => {
+              articles = data;
+              displayArticlesAndPosts(articles, posts);
+            });
+        });
+
+      document
+        .getElementById("changepass")
+        .addEventListener("click", function () {
+          // Prompt the user to enter the new password
+          var pattern = /^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+          var newPassword = prompt("Please enter your new password:");
+
+          if (pattern.test(newPassword)) {
+            // Password meets the criteria
+            console.log("Password is valid.");
+            if (newPassword !== null) {
+              // Send the new password via fetch
+              fetch(`http://localhost:8000/change-password`, {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/x-www-form-urlencoded",
+                },
+                body: new URLSearchParams({
+                  user_id: userId, // Assuming userId is defined somewhere in your code
+                  new_password: newPassword,
+                }),
+              }).then((response) => { alert("password changed successfully") });
+            } else {
+              // Password does not meet the criteria
+              console.log("User canceled the password change.");
+            }
+
+            // Check if the user entered a password
+
+          } else {
+            // Handle the case where the user cancels the prompt
+
+            alert("Password is invalid. Please follow the specified requirements.");
+          }
+        });
+
+      function displayArticlesAndPosts(articles, posts) {
+        const articlesContainer = document.getElementById("articles");
+        const postsContainer = document.getElementById("posts");
+
+        // Function to create article/post element
+        function createArticleOrPostElement(item, type) {
+          const element = document.createElement("div");
+
+          // Set up the HTML content of the element
+          element.innerHTML = `
+            <h4>${item.title}</h4>
+            <p style="text-align: justify;">${item.content}</p>
+            <button class="deleteButton" data-id="${item.id}" data-type="${type}">Delete</button>
+            <button class="editButton" data-id="${item.id}" data-type="${type}">Edit</button>
+        `;
+
+          return element;
+        }
+
+        // Display articles
+        articles.forEach((article) => {
+          const articleElement = createArticleOrPostElement(
+            article,
+            "article"
+          );
+          articlesContainer.appendChild(articleElement);
+        });
+        // Display posts
+        posts.forEach((post) => {
+          const postElement = createArticleOrPostElement(post, "post");
+          postsContainer.appendChild(postElement);
+        });
+
+        // Event delegation for delete and edit buttons
+        document.addEventListener("click", function (event) {
+          const target = event.target;
+          // Check if the clicked element is a delete or edit button
+          if (target.classList.contains("deleteButton")) {
+            console.log("delete called");
+            const id = target.getAttribute("data-id");
+            const type = target.getAttribute("data-type");
+            deleteItem(id, type);
+          } else if (target.classList.contains("editButton")) {
+            const id = target.getAttribute("data-id");
+            const type = target.getAttribute("data-type");
+            editItem(id, type);
+          }
+        });
+      }
+
+      document
+        .getElementById("closeEdit")
+        .addEventListener("click", function () {
+          document.getElementById("editModal").style.display = "none";
+        });
+
+      document
+        .getElementById("saveEdit")
+        .addEventListener("click", function () {
+          // Get the updated title and content from the modal fields
+          const updatedTitle = document.getElementById("editTitle").value;
+          const updatedContent = document.getElementById("editContent").value;
+
+          // Update the item data with the new values
+          // itemToEdit.title = updatedTitle;
+          // itemToEdit.content = updatedContent;
+
+          fetch(`http://localhost:8000/edit-${edittype}/${editid}`, {
+            method: "PUT",
+            headers: {
+              "Content-Type": "application/x-www-form-urlencoded",
+            },
+            body: new URLSearchParams({
+              title: updatedTitle,
+              content: updatedContent,
+            }),
+          })
+            .then((response) => {
+              if (!response.ok) {
+                throw new Error("Failed to edit post");
+              }
+              return response.json();
+            })
+            .then((data) => {
+              console.log(data);
+            })
+            .catch((error) => console.error("Error editing post:", error));
+
+          // Perform the update operation using your API or other methods
+          // For example, you can send a request to update the item on the server
+          window.location.reload();
+          // Close the edit modal
+          document.getElementById("editModal").style.display = "none";
+        });
+
+      // Function to handle edit functionality
+      function editItem(id, type) {
+        // Fetch the item data based on its ID and type (article or post)
+        console.log(id);
+        console.log(type);
+
+        editid = id;
+        edittype = type;
+
+        let itemToEdit;
+        if (type === "article") {
+          itemToEdit = articles.find((article) => article.id == id);
+        } else if (type === "post") {
+          itemToEdit = posts.find((post) => post.id == id);
+        }
+
+        // Populate the modal fields with the item data
+        document.getElementById("editTitle").value = itemToEdit.title;
+        document.getElementById("editContent").value = itemToEdit.content;
+
+        // Show the edit modal
+        document.getElementById("editModal").style.display = "block";
+
+        // Save changes when the save button is clicked
+      }
+
+      function deleteItem(id, type) {
+        console.log(id);
+        fetch(`http://localhost:8000/${type}s/${type}/${id}`, {
+          method: "DELETE",
+        })
+          .then((response) => response.json())
+          .then((data) => console.log(data))
+          .then((error) => console.log(error));
+
+        window.location.reload();
+      }
+
+      document
+        .getElementById("addPostButton")
+        .addEventListener("click", function () {
+          document.getElementById("addPostModal").style.display = "block";
+        });
+
+      // Event listener for adding a new article
+      document
+        .getElementById("addArticleButton")
+        .addEventListener("click", function () {
+          document.getElementById("addArticleModal").style.display = "block";
+        });
+
+      // Event listener for closing the add post modal
+      document
+        .getElementById("closePostModal")
+        .addEventListener("click", function () {
+          document.getElementById("addPostModal").style.display = "none";
+        });
+
+      // Event listener for closing the add article modal
+      document
+        .getElementById("closeArticleModal")
+        .addEventListener("click", function () {
+          document.getElementById("addArticleModal").style.display = "none";
+        });
+
+      // Function to add a new post
+      document
+        .getElementById("savePost")
+        .addEventListener("click", function () {
+          const title = document.getElementById("newPostTitle").value;
+          const content = document.getElementById("newPostContent").value;
+
+          // You can perform validation here before adding the post
+
+          fetch(`http://localhost:8000/add-post`, {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/x-www-form-urlencoded",
+            },
+            body: new URLSearchParams({
+              user_id: userId,
+              title: title,
+              content: content,
+            }),
+          })
+            .then((response) => response.json())
+            .then((data) => {
+              console.log(data);
+            })
+            .then((error) => console.log(error));
+
+          // Clear input fields
+          document.getElementById("newPostTitle").value = "";
+          document.getElementById("newPostContent").value = "";
+
+          // You can also update the UI to reflect the new post
+          // For simplicity, I'm reloading the page here
+          window.location.reload();
+        });
+
+      // Function to add a new article
+      document
+        .getElementById("saveArticle")
+        .addEventListener("click", function () {
+          const title = document.getElementById("newArticleTitle").value;
+          const content = document.getElementById("newArticleContent").value;
+
+          // You can perform validation here before adding the article
+
+          fetch(`http://localhost:8000/add-article`, {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/x-www-form-urlencoded",
+            },
+            body: new URLSearchParams({
+              user_id: userId,
+              title: title,
+              content: content,
+            }),
+          })
+            .then((response) => response.json())
+            .then((data) => {
+              console.log(data);
+            });
+
+          // Clear input fields
+          document.getElementById("newArticleTitle").value = "";
+          document.getElementById("newArticleContent").value = "";
+
+          // You can also update the UI to reflect the new article
+          // For simplicity, I'm reloading the page here
+          window.location.reload();
+        });
+    });
+  </script>
+</body>
+
+</html>
