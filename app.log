@@ -1,0 +1,771 @@
+2024-03-13 02:04:27,686 - INFO - Started server process [20446]
+2024-03-13 02:04:27,687 - INFO - Waiting for application startup.
+2024-03-13 02:04:27,688 - INFO - Application startup complete.
+2024-03-13 02:04:27,789 - INFO - Shutting down
+2024-03-13 02:04:27,890 - INFO - Waiting for application shutdown.
+2024-03-13 02:04:27,892 - INFO - Application shutdown complete.
+2024-03-13 02:04:27,892 - INFO - Finished server process [20446]
+2024-03-13 02:04:29,685 - INFO - Started server process [20459]
+2024-03-13 02:04:29,686 - INFO - Waiting for application startup.
+2024-03-13 02:04:29,687 - INFO - Application startup complete.
+2024-03-13 02:04:37,919 - INFO - Shutting down
+2024-03-13 02:04:38,021 - INFO - Waiting for application shutdown.
+2024-03-13 02:04:38,022 - INFO - Application shutdown complete.
+2024-03-13 02:04:38,022 - INFO - Finished server process [20459]
+2024-03-13 02:04:41,686 - INFO - Started server process [20571]
+2024-03-13 02:04:41,689 - INFO - Waiting for application startup.
+2024-03-13 02:04:41,692 - INFO - Application startup complete.
+2024-03-13 02:06:44,001 - INFO - Shutting down
+2024-03-13 02:06:44,102 - INFO - Waiting for application shutdown.
+2024-03-13 02:06:44,103 - INFO - Application shutdown complete.
+2024-03-13 02:06:44,104 - INFO - Finished server process [20571]
+2024-03-13 02:06:50,451 - INFO - Started server process [21231]
+2024-03-13 02:06:50,452 - INFO - Waiting for application startup.
+2024-03-13 02:06:50,453 - INFO - Application startup complete.
+2024-03-13 02:06:51,658 - INFO - Shutting down
+2024-03-13 02:06:51,759 - INFO - Waiting for application shutdown.
+2024-03-13 02:06:51,760 - INFO - Application shutdown complete.
+2024-03-13 02:06:51,760 - INFO - Finished server process [21231]
+2024-03-13 02:06:53,344 - INFO - Started server process [21273]
+2024-03-13 02:06:53,345 - INFO - Waiting for application startup.
+2024-03-13 02:06:53,346 - INFO - Application startup complete.
+2024-03-13 02:06:54,553 - INFO - Shutting down
+2024-03-13 02:06:54,655 - INFO - Waiting for application shutdown.
+2024-03-13 02:06:54,656 - INFO - Application shutdown complete.
+2024-03-13 02:06:54,657 - INFO - Finished server process [21273]
+2024-03-13 02:06:56,133 - INFO - Started server process [21285]
+2024-03-13 02:06:56,134 - INFO - Waiting for application startup.
+2024-03-13 02:06:56,135 - INFO - Application startup complete.
+2024-03-13 02:07:01,657 - INFO - Shutting down
+2024-03-13 02:07:01,758 - INFO - Waiting for application shutdown.
+2024-03-13 02:07:01,760 - INFO - Application shutdown complete.
+2024-03-13 02:07:01,761 - INFO - Finished server process [21285]
+2024-03-13 02:07:11,567 - INFO - Started server process [21432]
+2024-03-13 02:07:11,568 - INFO - Waiting for application startup.
+2024-03-13 02:07:11,570 - INFO - Application startup complete.
+2024-03-13 02:07:58,744 - INFO - Shutting down
+2024-03-13 02:07:58,846 - INFO - Waiting for application shutdown.
+2024-03-13 02:07:58,847 - INFO - Application shutdown complete.
+2024-03-13 02:07:58,847 - INFO - Finished server process [21432]
+2024-03-13 02:08:00,533 - INFO - Started server process [21728]
+2024-03-13 02:08:00,534 - INFO - Waiting for application startup.
+2024-03-13 02:08:00,535 - INFO - Application startup complete.
+2024-03-13 02:08:01,639 - INFO - Shutting down
+2024-03-13 02:08:01,740 - INFO - Waiting for application shutdown.
+2024-03-13 02:08:01,741 - INFO - Application shutdown complete.
+2024-03-13 02:08:01,741 - INFO - Finished server process [21728]
+2024-03-13 02:08:03,367 - INFO - Started server process [21762]
+2024-03-13 02:08:03,367 - INFO - Waiting for application startup.
+2024-03-13 02:08:03,368 - INFO - Application startup complete.
+2024-03-13 02:08:09,793 - INFO - Shutting down
+2024-03-13 02:08:09,894 - INFO - Waiting for application shutdown.
+2024-03-13 02:08:09,895 - INFO - Application shutdown complete.
+2024-03-13 02:08:09,895 - INFO - Finished server process [21762]
+2024-03-13 02:08:11,512 - INFO - Started server process [21824]
+2024-03-13 02:08:11,513 - INFO - Waiting for application startup.
+2024-03-13 02:08:11,514 - INFO - Application startup complete.
+2024-03-13 02:08:13,925 - INFO - Shutting down
+2024-03-13 02:08:14,026 - INFO - Waiting for application shutdown.
+2024-03-13 02:08:14,027 - INFO - Application shutdown complete.
+2024-03-13 02:08:14,028 - INFO - Finished server process [21824]
+2024-03-13 02:08:15,699 - INFO - Started server process [21871]
+2024-03-13 02:08:15,700 - INFO - Waiting for application startup.
+2024-03-13 02:08:15,701 - INFO - Application startup complete.
+2024-03-13 02:08:36,879 - INFO - Shutting down
+2024-03-13 02:08:36,980 - INFO - Waiting for application shutdown.
+2024-03-13 02:08:36,981 - INFO - Application shutdown complete.
+2024-03-13 02:08:36,981 - INFO - Finished server process [21871]
+2024-03-13 02:08:38,792 - INFO - Started server process [22041]
+2024-03-13 02:08:38,793 - INFO - Waiting for application startup.
+2024-03-13 02:08:38,794 - INFO - Application startup complete.
+2024-03-13 02:08:39,296 - INFO - Shutting down
+2024-03-13 02:08:39,397 - INFO - Waiting for application shutdown.
+2024-03-13 02:08:39,398 - INFO - Application shutdown complete.
+2024-03-13 02:08:39,399 - INFO - Finished server process [22041]
+2024-03-13 02:08:42,269 - INFO - Started server process [22089]
+2024-03-13 02:08:42,270 - INFO - Waiting for application startup.
+2024-03-13 02:08:42,271 - INFO - Application startup complete.
+2024-03-13 02:08:42,874 - INFO - Shutting down
+2024-03-13 02:08:42,975 - INFO - Waiting for application shutdown.
+2024-03-13 02:08:42,976 - INFO - Application shutdown complete.
+2024-03-13 02:08:42,977 - INFO - Finished server process [22089]
+2024-03-13 02:08:44,594 - INFO - Started server process [22113]
+2024-03-13 02:08:44,594 - INFO - Waiting for application startup.
+2024-03-13 02:08:44,595 - INFO - Application startup complete.
+2024-03-13 02:08:52,019 - INFO - Shutting down
+2024-03-13 02:08:52,120 - INFO - Waiting for application shutdown.
+2024-03-13 02:08:52,121 - INFO - Application shutdown complete.
+2024-03-13 02:08:52,122 - INFO - Finished server process [22113]
+2024-03-13 02:08:53,974 - INFO - Started server process [22182]
+2024-03-13 02:08:53,975 - INFO - Waiting for application startup.
+2024-03-13 02:08:53,976 - INFO - Application startup complete.
+2024-03-13 02:08:54,077 - INFO - Shutting down
+2024-03-13 02:08:54,178 - INFO - Waiting for application shutdown.
+2024-03-13 02:08:54,179 - INFO - Application shutdown complete.
+2024-03-13 02:08:54,180 - INFO - Finished server process [22182]
+2024-03-13 02:08:57,532 - INFO - Started server process [22230]
+2024-03-13 02:08:57,533 - INFO - Waiting for application startup.
+2024-03-13 02:08:57,534 - INFO - Application startup complete.
+2024-03-13 02:08:58,237 - INFO - Shutting down
+2024-03-13 02:08:58,339 - INFO - Waiting for application shutdown.
+2024-03-13 02:08:58,339 - INFO - Application shutdown complete.
+2024-03-13 02:08:58,340 - INFO - Finished server process [22230]
+2024-03-13 02:08:59,761 - INFO - Started server process [22255]
+2024-03-13 02:08:59,762 - INFO - Waiting for application startup.
+2024-03-13 02:08:59,762 - INFO - Application startup complete.
+2024-03-13 02:10:15,827 - INFO - Shutting down
+2024-03-13 02:10:15,929 - INFO - Waiting for application shutdown.
+2024-03-13 02:10:15,930 - INFO - Application shutdown complete.
+2024-03-13 02:10:15,931 - INFO - Finished server process [22255]
+2024-03-13 02:10:17,716 - INFO - Started server process [22679]
+2024-03-13 02:10:17,717 - INFO - Waiting for application startup.
+2024-03-13 02:10:17,718 - INFO - Application startup complete.
+2024-03-13 02:10:37,787 - INFO - Shutting down
+2024-03-13 02:10:37,888 - INFO - Waiting for application shutdown.
+2024-03-13 02:10:37,889 - INFO - Application shutdown complete.
+2024-03-13 02:10:37,889 - INFO - Finished server process [22679]
+2024-03-13 02:10:43,313 - INFO - Started server process [22855]
+2024-03-13 02:10:43,314 - INFO - Waiting for application startup.
+2024-03-13 02:10:43,315 - INFO - Application startup complete.
+2024-03-13 02:11:17,034 - INFO - Shutting down
+2024-03-13 02:11:17,135 - INFO - Waiting for application shutdown.
+2024-03-13 02:11:17,136 - INFO - Application shutdown complete.
+2024-03-13 02:11:17,136 - INFO - Finished server process [22855]
+2024-03-13 02:11:19,274 - INFO - Started server process [23058]
+2024-03-13 02:11:19,276 - INFO - Waiting for application startup.
+2024-03-13 02:11:19,277 - INFO - Application startup complete.
+2024-03-13 02:12:05,137 - INFO - Shutting down
+2024-03-13 02:12:05,238 - INFO - Waiting for application shutdown.
+2024-03-13 02:12:05,239 - INFO - Application shutdown complete.
+2024-03-13 02:12:05,239 - INFO - Finished server process [23058]
+2024-03-13 02:12:07,130 - INFO - Started server process [23357]
+2024-03-13 02:12:07,131 - INFO - Waiting for application startup.
+2024-03-13 02:12:07,132 - INFO - Application startup complete.
+2024-03-13 02:12:21,711 - INFO - Authentication - User 1 logged in from 127.0.0.1
+2024-03-13 02:12:21,732 - INFO - Transaction - User 1: Accessed user page
+2024-03-13 02:13:28,521 - INFO - Shutting down
+2024-03-13 02:13:28,623 - INFO - Waiting for application shutdown.
+2024-03-13 02:13:28,624 - INFO - Application shutdown complete.
+2024-03-13 02:13:28,624 - INFO - Finished server process [23357]
+2024-03-13 02:13:30,349 - INFO - Started server process [23884]
+2024-03-13 02:13:30,349 - INFO - Waiting for application startup.
+2024-03-13 02:13:30,351 - INFO - Application startup complete.
+2024-03-13 02:13:48,714 - INFO - Shutting down
+2024-03-13 02:13:48,815 - INFO - Waiting for application shutdown.
+2024-03-13 02:13:48,816 - INFO - Application shutdown complete.
+2024-03-13 02:13:48,817 - INFO - Finished server process [23884]
+2024-03-13 02:14:05,210 - INFO - Started server process [24129]
+2024-03-13 02:14:05,210 - INFO - Waiting for application startup.
+2024-03-13 02:14:05,211 - INFO - Application startup complete.
+2024-03-13 02:16:46,975 - INFO - Shutting down
+2024-03-13 02:16:47,075 - INFO - Waiting for application shutdown.
+2024-03-13 02:16:47,076 - INFO - Application shutdown complete.
+2024-03-13 02:16:47,076 - INFO - Finished server process [24129]
+2024-03-13 02:16:49,834 - INFO - Started server process [24992]
+2024-03-13 02:16:49,835 - INFO - Waiting for application startup.
+2024-03-13 02:16:49,836 - INFO - Application startup complete.
+2024-03-13 02:16:51,846 - INFO - Shutting down
+2024-03-13 02:16:51,947 - INFO - Waiting for application shutdown.
+2024-03-13 02:16:51,948 - INFO - Application shutdown complete.
+2024-03-13 02:16:51,949 - INFO - Finished server process [24992]
+2024-03-13 02:16:53,677 - INFO - Started server process [25022]
+2024-03-13 02:16:53,678 - INFO - Waiting for application startup.
+2024-03-13 02:16:53,679 - INFO - Application startup complete.
+2024-03-13 02:18:51,703 - INFO - Shutting down
+2024-03-13 02:18:51,804 - INFO - Waiting for application shutdown.
+2024-03-13 02:18:51,806 - INFO - Application shutdown complete.
+2024-03-13 02:18:51,806 - INFO - Finished server process [25022]
+2024-03-13 02:18:54,673 - INFO - Started server process [25686]
+2024-03-13 02:18:54,674 - INFO - Waiting for application startup.
+2024-03-13 02:18:54,675 - INFO - Application startup complete.
+2024-03-13 02:20:00,313 - INFO - Shutting down
+2024-03-13 02:20:00,414 - INFO - Waiting for application shutdown.
+2024-03-13 02:20:00,415 - INFO - Application shutdown complete.
+2024-03-13 02:20:00,416 - INFO - Finished server process [25686]
+2024-03-13 02:20:03,016 - INFO - Started server process [26076]
+2024-03-13 02:20:03,017 - INFO - Waiting for application startup.
+2024-03-13 02:20:03,018 - INFO - Application startup complete.
+2024-03-13 02:24:05,901 - INFO - Transaction - User 1: Accessed user page
+2024-03-13 02:24:06,066 - ERROR - Failed to retrieve posts for user_id 1 with error: Recursive use of cursors not allowed.
+2024-03-13 02:24:06,067 - INFO - Username retrieved successfully for user_id 1
+2024-03-13 02:24:08,340 - INFO - Retrieved articles for user_id 1 successfully
+2024-03-13 02:24:36,295 - INFO - Transaction - User 1: Accessed user page
+2024-03-13 02:24:36,712 - INFO - Post added successfully
+2024-03-13 02:24:36,712 - INFO - Username retrieved successfully for user_id 1
+2024-03-13 02:24:36,718 - INFO - Retrieved posts for user_id 1 successfully
+2024-03-13 02:24:37,350 - INFO - Retrieved articles for user_id 1 successfully
+2024-03-13 02:29:08,554 - INFO - Shutting down
+2024-03-13 02:29:08,655 - INFO - Waiting for application shutdown.
+2024-03-13 02:29:08,661 - INFO - Application shutdown complete.
+2024-03-13 02:29:08,664 - INFO - Finished server process [26076]
+2024-03-13 02:29:10,348 - INFO - Started server process [29055]
+2024-03-13 02:29:10,349 - INFO - Waiting for application startup.
+2024-03-13 02:29:10,350 - INFO - Application startup complete.
+2024-03-13 02:29:35,621 - WARNING - Admin login failed for email: s@gmail.com
+2024-03-13 02:30:09,667 - INFO - Admin registration successful: s@gmail.com
+2024-03-13 02:30:56,186 - INFO - Admin Action - Admin logged in from 127.0.0.1
+2024-03-13 02:30:56,899 - INFO - Retrieved all usernames successfully
+2024-03-13 02:34:09,617 - INFO - Retrieved user_id for username 'Muhammad Muaz' successfully
+2024-03-13 02:34:09,643 - INFO - Retrieved posts for user_id 2 successfully
+2024-03-13 02:34:09,669 - INFO - Retrieved articles for user_id 2 successfully
+2024-03-13 02:34:11,294 - INFO - Retrieved user_id for username 'sami123' successfully
+2024-03-13 02:34:11,320 - INFO - Retrieved posts for user_id 1 successfully
+2024-03-13 02:34:11,346 - INFO - Retrieved articles for user_id 1 successfully
+2024-03-14 02:15:56,368 - INFO - Started server process [14825]
+2024-03-14 02:15:56,374 - INFO - Waiting for application startup.
+2024-03-14 02:15:56,375 - INFO - Application startup complete.
+2024-03-14 02:15:59,185 - INFO - Shutting down
+2024-03-14 02:15:59,287 - INFO - Waiting for application shutdown.
+2024-03-14 02:15:59,288 - INFO - Application shutdown complete.
+2024-03-14 02:15:59,289 - INFO - Finished server process [14825]
+2024-03-14 02:16:00,750 - INFO - Started server process [14862]
+2024-03-14 02:16:00,751 - INFO - Waiting for application startup.
+2024-03-14 02:16:00,751 - INFO - Application startup complete.
+2024-03-14 02:19:30,862 - INFO - Started server process [16492]
+2024-03-14 02:19:30,866 - INFO - Waiting for application startup.
+2024-03-14 02:19:30,869 - INFO - Application startup complete.
+2024-03-14 02:25:33,579 - INFO - Shutting down
+2024-03-14 02:25:33,681 - INFO - Waiting for application shutdown.
+2024-03-14 02:25:33,683 - INFO - Application shutdown complete.
+2024-03-14 02:25:33,684 - INFO - Finished server process [16492]
+2024-03-14 02:39:21,255 - INFO - Started server process [23549]
+2024-03-14 02:39:21,256 - INFO - Waiting for application startup.
+2024-03-14 02:39:21,257 - INFO - Application startup complete.
+2024-03-14 02:39:21,262 - INFO - Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-03-14 02:41:28,560 - INFO - Started server process [24420]
+2024-03-14 02:41:28,561 - INFO - Waiting for application startup.
+2024-03-14 02:41:28,562 - INFO - Application startup complete.
+2024-03-14 02:41:28,567 - INFO - Uvicorn running on https://127.0.0.1:8000 (Press CTRL+C to quit)
+2024-03-14 02:43:38,837 - INFO - Started server process [25498]
+2024-03-14 02:43:38,838 - INFO - Waiting for application startup.
+2024-03-14 02:43:38,839 - INFO - Application startup complete.
+2024-03-14 02:43:44,092 - WARNING - Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+2024-03-14 02:43:44,098 - WARNING - Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+2024-03-14 02:43:45,238 - WARNING - Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+2024-03-14 02:43:45,243 - WARNING - Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+2024-03-14 02:43:46,106 - WARNING - Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+2024-03-14 02:43:46,109 - WARNING - Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+2024-03-14 02:43:51,222 - WARNING - Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+2024-03-14 02:43:51,226 - WARNING - Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+2024-03-17 10:14:10,303 - WARNING - Authentication failed for email: kaila@gmail.com
+2024-03-17 10:14:15,937 - WARNING - Authentication failed for email: kaila@gmail.com
+2024-03-17 10:15:04,092 - INFO - Authentication - User 4 logged in from 127.0.0.1
+2024-03-17 10:15:04,100 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:15:04,376 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:15:04,377 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:15:04,385 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:15:57,428 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:15:57,429 - INFO - Post added successfully
+2024-03-17 10:15:57,640 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:15:57,641 - INFO - Retrieved posts for user_id 4 successfully
+2024-03-17 10:15:57,645 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:16:04,921 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:16:04,928 - INFO - Post with post_id 4 edited successfully
+2024-03-17 10:16:05,119 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:16:05,119 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:16:05,123 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:16:08,796 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:16:08,979 - ERROR - Failed to retrieve username for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:16:08,979 - INFO - Retrieved posts for user_id 4 successfully
+2024-03-17 10:16:09,029 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:16:19,824 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:16:19,831 - INFO - Article added successfully
+2024-03-17 10:16:20,016 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:16:20,018 - INFO - Retrieved posts for user_id 4 successfully
+2024-03-17 10:16:20,063 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:16:24,746 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:16:24,759 - INFO - Article with article_id 3 edited successfully
+2024-03-17 10:16:24,945 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:16:24,945 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:16:24,955 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:16:26,778 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:16:26,958 - ERROR - Failed to retrieve username for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:16:26,959 - INFO - Retrieved posts for user_id 4 successfully
+2024-03-17 10:16:27,006 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:16:29,945 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:16:29,953 - INFO - Article with article_id 3 deleted successfully
+2024-03-17 10:16:30,134 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:16:30,136 - INFO - Retrieved posts for user_id 4 successfully
+2024-03-17 10:16:30,201 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:16:31,531 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:16:31,730 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:16:31,735 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:16:31,786 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:16:34,171 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:16:34,374 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:16:34,376 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:16:34,559 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:16:36,140 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:16:36,366 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:16:36,366 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:16:36,397 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:16:37,687 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:16:37,875 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:16:37,875 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:16:37,879 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:16:38,909 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:16:39,145 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:16:39,146 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:16:39,195 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:16:40,307 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:16:40,492 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:16:40,493 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:16:40,558 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:16:47,078 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:16:47,096 - INFO - Article added successfully
+2024-03-17 10:16:47,304 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:16:47,305 - INFO - Retrieved posts for user_id 4 successfully
+2024-03-17 10:16:47,354 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:16:49,176 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:16:49,386 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:16:49,387 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:16:49,431 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:16:50,878 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:16:51,064 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:16:51,065 - INFO - Retrieved posts for user_id 4 successfully
+2024-03-17 10:16:51,069 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:16:52,191 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:16:52,454 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:16:52,456 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:16:52,494 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:16:53,487 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:16:53,688 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:16:53,689 - INFO - Retrieved posts for user_id 4 successfully
+2024-03-17 10:16:53,762 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:16:56,260 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:16:56,456 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:16:56,457 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:16:56,462 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:16:57,341 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:16:57,507 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:16:57,507 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:16:57,512 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:16:58,178 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:16:58,336 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:16:58,336 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:16:58,340 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:17:03,240 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:17:03,809 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:17:03,809 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:17:03,847 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:17:05,433 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:17:05,930 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:17:05,931 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:17:05,938 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:17:06,806 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:17:06,987 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:17:06,988 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:17:06,997 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:17:07,734 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:17:07,897 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:17:07,897 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:17:07,902 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:17:08,617 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:17:08,787 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:17:08,787 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:17:08,790 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:17:09,508 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:17:09,690 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:17:09,690 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:17:09,739 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:17:10,414 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:17:10,570 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:17:10,570 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:17:10,606 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:17:15,458 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:17:15,635 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:17:15,635 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:17:15,673 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:17:16,666 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:17:16,835 - ERROR - Failed to retrieve username for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:17:16,835 - INFO - Retrieved posts for user_id 4 successfully
+2024-03-17 10:17:16,839 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:17:18,985 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:17:18,998 - INFO - Article with article_id 3 deleted successfully
+2024-03-17 10:17:19,208 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:17:19,209 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:17:19,219 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:17:20,121 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:17:20,379 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:17:20,379 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:17:20,383 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:17:21,851 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:17:22,034 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:17:22,034 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:17:22,038 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:17:22,870 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:17:23,060 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:17:23,060 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:17:23,064 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:17:23,867 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:17:24,034 - ERROR - Failed to retrieve username for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:17:24,035 - INFO - Retrieved posts for user_id 4 successfully
+2024-03-17 10:17:24,038 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:17:26,049 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:17:26,054 - INFO - Post with post_id 4 deleted successfully
+2024-03-17 10:17:26,217 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:17:26,218 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:17:26,221 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:17:27,028 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:17:27,216 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:17:27,216 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:17:27,224 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:17:27,935 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:17:28,092 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:17:28,092 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:17:28,096 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:17:36,116 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:17:36,158 - INFO - Post added successfully
+2024-03-17 10:17:36,371 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:17:36,371 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:17:36,416 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:17:38,017 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:17:38,195 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:17:38,196 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:17:38,200 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:17:38,951 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:17:39,121 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:17:39,121 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:17:39,124 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:17:40,061 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:17:40,333 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:17:40,339 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:17:40,408 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:17:41,423 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:17:41,631 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:17:41,631 - INFO - Retrieved posts for user_id 4 successfully
+2024-03-17 10:17:41,635 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:18:42,766 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:18:42,769 - INFO - Article added successfully
+2024-03-17 10:18:42,970 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:18:42,971 - INFO - Retrieved posts for user_id 4 successfully
+2024-03-17 10:18:42,976 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:18:44,190 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:18:44,363 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:18:44,363 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:18:44,367 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:18:45,605 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:18:45,809 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:18:45,809 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:18:45,814 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:18:46,890 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:18:47,104 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:18:47,104 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:18:47,107 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:18:48,005 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:18:48,179 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:18:48,180 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:18:48,264 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:18:48,939 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:18:49,087 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:18:49,087 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:18:49,091 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:18:49,696 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:18:49,863 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:18:49,863 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:18:49,867 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:18:50,624 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:18:50,788 - ERROR - Failed to retrieve posts for user_id 4 with error: Recursive use of cursors not allowed.
+2024-03-17 10:18:50,789 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:18:50,828 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:18:57,139 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-17 10:18:57,153 - INFO - Post added successfully
+2024-03-17 10:18:57,353 - INFO - Username retrieved successfully for user_id 4
+2024-03-17 10:18:57,353 - INFO - Retrieved posts for user_id 4 successfully
+2024-03-17 10:18:57,396 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:19:38,167 - INFO - Admin registration successful: adminj@gmail.com
+2024-03-17 10:19:45,831 - INFO - Admin Action - Admin logged in from 127.0.0.1
+2024-03-17 10:19:46,061 - INFO - Retrieved all usernames successfully
+2024-03-17 10:19:48,214 - INFO - Retrieved user_id for username 'jordyn w hay' successfully
+2024-03-17 10:19:48,225 - INFO - Retrieved posts for user_id 4 successfully
+2024-03-17 10:19:48,250 - INFO - Retrieved articles for user_id 4 successfully
+2024-03-17 10:19:54,169 - INFO - Retrieved user_id for username 'JORDYN HAY' successfully
+2024-03-17 10:19:54,174 - INFO - Retrieved posts for user_id 3 successfully
+2024-03-17 10:19:54,178 - INFO - Retrieved articles for user_id 3 successfully
+2024-03-17 10:19:56,557 - INFO - Retrieved user_id for username 'Muhammad Muaz' successfully
+2024-03-17 10:19:56,569 - INFO - Retrieved posts for user_id 2 successfully
+2024-03-17 10:19:56,574 - INFO - Retrieved articles for user_id 2 successfully
+2024-03-17 10:19:58,329 - INFO - Retrieved user_id for username 'sami123' successfully
+2024-03-17 10:19:58,334 - INFO - Retrieved posts for user_id 1 successfully
+2024-03-17 10:19:58,338 - INFO - Retrieved articles for user_id 1 successfully
+2024-03-20 16:47:12,716 - INFO - Authentication - User 5 logged in from 127.0.0.1
+2024-03-20 16:47:12,723 - INFO - Transaction - User 5: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:47:59,229 - INFO - Transaction - User 5: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:48:08,270 - INFO - Transaction - User 5: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:48:10,948 - INFO - Transaction - User 5: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:48:24,788 - INFO - Transaction - User 5: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:49:20,795 - INFO - Authentication - User 5 logged in from 127.0.0.1
+2024-03-20 16:49:20,802 - INFO - Transaction - User 5: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:49:39,720 - INFO - Transaction - User 5: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:50:03,016 - INFO - Authentication - User 4 logged in from 127.0.0.1
+2024-03-20 16:50:03,021 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:50:06,129 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:50:09,520 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:50:12,148 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:50:15,241 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:50:18,271 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:50:19,142 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:50:19,901 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:50:20,333 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:50:20,672 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:50:20,906 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:50:21,106 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:50:21,317 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:50:21,497 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:50:21,712 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:50:37,989 - INFO - Transaction - User 4: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:51:46,856 - WARNING - Authentication failed for email: demo@gmail.com
+2024-03-20 16:51:52,446 - WARNING - Authentication failed for email: demo@gmail.com
+2024-03-20 16:51:57,654 - WARNING - Authentication failed for email: demo@gmail.com
+2024-03-20 16:52:41,238 - INFO - Authentication - User 7 logged in from 127.0.0.1
+2024-03-20 16:52:41,246 - INFO - Transaction - User 7: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:52:55,129 - INFO - Transaction - User 7: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:53:00,416 - INFO - Transaction - User 7: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:53:30,198 - INFO - Transaction - User 7: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:53:31,842 - INFO - Transaction - User 7: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:53:58,456 - WARNING - Authentication failed for email: demo1@gmail.com
+2024-03-20 16:54:09,981 - INFO - Authentication - User 7 logged in from 127.0.0.1
+2024-03-20 16:54:09,989 - INFO - Transaction - User 7: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:54:18,215 - INFO - Transaction - User 7: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:54:34,975 - WARNING - Authentication failed for email: demo1@gmail.com
+2024-03-20 16:56:36,674 - INFO - Admin registration successful: admindemo@gmail.com
+2024-03-20 16:56:52,096 - INFO - Admin Action - Admin logged in from 127.0.0.1
+2024-03-20 16:57:40,230 - WARNING - Authentication failed for email: demo@gmail.com
+2024-03-20 16:57:45,958 - INFO - Authentication - User 6 logged in from 127.0.0.1
+2024-03-20 16:57:45,966 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:57:46,196 - ERROR - Failed to retrieve posts for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 16:57:46,196 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:57:46,200 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:57:52,473 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:57:52,482 - INFO - Post added successfully
+2024-03-20 16:57:52,688 - ERROR - Failed to retrieve posts for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 16:57:52,689 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:57:52,694 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:57:53,915 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:57:54,104 - ERROR - Failed to retrieve posts for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 16:57:54,105 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:57:54,147 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:57:55,081 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:57:55,250 - ERROR - Failed to retrieve posts for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 16:57:55,250 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:57:55,294 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:57:56,020 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:57:56,196 - ERROR - Failed to retrieve posts for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 16:57:56,196 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:57:56,252 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:57:56,876 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:57:57,026 - ERROR - Failed to retrieve posts for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 16:57:57,026 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:57:57,029 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:57:57,106 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:57:57,285 - ERROR - Failed to retrieve posts for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 16:57:57,285 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:57:57,289 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:58:01,610 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:58:01,809 - ERROR - Failed to retrieve posts for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 16:58:01,816 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:58:01,859 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:58:02,365 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:58:02,529 - ERROR - Failed to retrieve posts for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 16:58:02,529 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:58:02,532 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:58:03,462 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:58:03,622 - ERROR - Failed to retrieve posts for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 16:58:03,624 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:58:03,683 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:58:11,517 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:58:11,539 - INFO - Article added successfully
+2024-03-20 16:58:11,726 - ERROR - Failed to retrieve username for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 16:58:11,727 - INFO - Retrieved posts for user_id 6 successfully
+2024-03-20 16:58:11,795 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:58:12,700 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:58:12,884 - ERROR - Failed to retrieve posts for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 16:58:12,885 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:58:12,891 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:58:13,876 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:58:14,049 - ERROR - Failed to retrieve posts for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 16:58:14,050 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:58:14,054 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:58:14,576 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:58:14,727 - ERROR - Failed to retrieve username for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 16:58:14,727 - INFO - Retrieved posts for user_id 6 successfully
+2024-03-20 16:58:14,768 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:58:15,908 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:58:16,056 - ERROR - Failed to retrieve posts for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 16:58:16,056 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:58:16,059 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:58:16,775 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:58:16,944 - ERROR - Failed to retrieve posts for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 16:58:16,944 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:58:16,995 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:58:17,511 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:58:17,695 - ERROR - Failed to retrieve username for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 16:58:17,695 - INFO - Retrieved posts for user_id 6 successfully
+2024-03-20 16:58:17,772 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:58:22,939 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:58:22,949 - INFO - Post with post_id 6 edited successfully
+2024-03-20 16:58:23,130 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:58:23,131 - INFO - Retrieved posts for user_id 6 successfully
+2024-03-20 16:58:23,196 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:58:34,924 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:58:34,979 - INFO - Article with article_id 4 edited successfully
+2024-03-20 16:58:35,112 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:58:35,119 - INFO - Retrieved posts for user_id 6 successfully
+2024-03-20 16:58:35,192 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:58:46,956 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:58:46,972 - INFO - Post with post_id 6 deleted successfully
+2024-03-20 16:58:47,144 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:58:47,145 - INFO - Retrieved posts for user_id 6 successfully
+2024-03-20 16:58:47,149 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:58:58,055 - INFO - Password changed successfully for user_id 6
+2024-03-20 16:59:06,113 - INFO - Authentication - User 6 logged in from 127.0.0.1
+2024-03-20 16:59:06,121 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:59:06,474 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:59:06,474 - INFO - Retrieved posts for user_id 6 successfully
+2024-03-20 16:59:06,485 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:59:16,206 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:59:16,214 - INFO - Post added successfully
+2024-03-20 16:59:16,400 - ERROR - Failed to retrieve posts for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 16:59:16,401 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:59:16,466 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:59:18,573 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:59:18,778 - ERROR - Failed to retrieve posts for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 16:59:18,778 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:59:18,781 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:59:19,899 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:59:20,136 - ERROR - Failed to retrieve posts for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 16:59:20,136 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:59:20,141 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:59:26,299 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:59:26,488 - ERROR - Failed to retrieve posts for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 16:59:26,488 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:59:26,537 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:59:27,020 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:59:27,172 - ERROR - Failed to retrieve posts for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 16:59:27,172 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:59:27,176 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:59:27,860 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:59:28,021 - ERROR - Failed to retrieve posts for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 16:59:28,021 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:59:28,062 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:59:28,520 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:59:28,667 - ERROR - Failed to retrieve posts for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 16:59:28,668 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:59:28,673 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:59:29,103 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:59:29,253 - ERROR - Failed to retrieve posts for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 16:59:29,253 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:59:29,257 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:59:29,611 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:59:29,774 - ERROR - Failed to retrieve posts for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 16:59:29,774 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:59:29,780 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:59:30,204 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:59:30,368 - ERROR - Failed to retrieve posts for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 16:59:30,369 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:59:30,416 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:59:30,779 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:59:30,930 - ERROR - Failed to retrieve posts for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 16:59:30,930 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:59:30,934 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:59:31,439 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:59:31,659 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:59:31,660 - INFO - Retrieved posts for user_id 6 successfully
+2024-03-20 16:59:31,714 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:59:32,062 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:59:32,219 - ERROR - Failed to retrieve posts for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 16:59:32,219 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 16:59:32,223 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 16:59:41,104 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 16:59:41,634 - ERROR - Failed to retrieve username for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 16:59:41,634 - INFO - Retrieved posts for user_id 6 successfully
+2024-03-20 16:59:41,644 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 17:00:43,025 - WARNING - Admin login failed for email: admindemo@gmail.com
+2024-03-20 17:00:49,854 - WARNING - Admin login failed for email: admindemo@gmail.com
+2024-03-20 17:00:57,893 - WARNING - Admin login failed for email: admindemo@gmail.com
+2024-03-20 17:01:03,203 - INFO - Admin Action - Admin logged in from 127.0.0.1
+2024-03-20 17:01:03,457 - INFO - Retrieved all usernames successfully
+2024-03-20 17:01:05,291 - INFO - Retrieved user_id for username 'sami123' successfully
+2024-03-20 17:01:05,295 - INFO - Retrieved posts for user_id 1 successfully
+2024-03-20 17:01:05,299 - INFO - Retrieved articles for user_id 1 successfully
+2024-03-20 17:01:07,098 - INFO - Retrieved user_id for username 'demo1' successfully
+2024-03-20 17:01:07,102 - INFO - Retrieved posts for user_id 7 successfully
+2024-03-20 17:01:07,105 - INFO - Retrieved articles for user_id 7 successfully
+2024-03-20 17:01:09,107 - INFO - Retrieved user_id for username 'demo' successfully
+2024-03-20 17:01:09,110 - INFO - Retrieved posts for user_id 6 successfully
+2024-03-20 17:01:09,113 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 17:01:17,199 - INFO - Article with article_id 4 deleted successfully
+2024-03-20 17:01:17,477 - INFO - Admin Action - Admin logged in from 127.0.0.1
+2024-03-20 17:01:17,696 - INFO - Retrieved all usernames successfully
+2024-03-20 17:01:28,125 - WARNING - Authentication failed for email: demo@gmail.com
+2024-03-20 17:01:35,089 - INFO - Authentication - User 6 logged in from 127.0.0.1
+2024-03-20 17:01:35,095 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 17:01:35,351 - ERROR - Failed to retrieve posts for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 17:01:35,351 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 17:01:35,362 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 17:01:37,307 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 17:01:37,469 - ERROR - Failed to retrieve posts for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 17:01:37,470 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 17:01:37,522 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 17:01:38,135 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 17:01:38,284 - ERROR - Failed to retrieve posts for user_id 6 with error: Recursive use of cursors not allowed.
+2024-03-20 17:01:38,285 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 17:01:38,348 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 17:01:38,757 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 17:01:38,915 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 17:01:38,915 - INFO - Retrieved posts for user_id 6 successfully
+2024-03-20 17:01:38,919 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 17:04:13,340 - INFO - Retrieved user_id for username 'demo' successfully
+2024-03-20 17:04:13,348 - INFO - Retrieved posts for user_id 6 successfully
+2024-03-20 17:04:13,352 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 17:04:19,892 - INFO - Article added successfully
+2024-03-20 17:04:19,922 - INFO - Transaction - User 6: Accessed user page - IP: 127.0.0.1
+2024-03-20 17:04:20,147 - INFO - Username retrieved successfully for user_id 6
+2024-03-20 17:04:20,149 - INFO - Retrieved posts for user_id 6 successfully
+2024-03-20 17:04:20,272 - INFO - Retrieved articles for user_id 6 successfully
+2024-03-20 17:04:23,113 - INFO - Retrieved user_id for username 'test1' successfully
+2024-03-20 17:04:23,120 - INFO - Retrieved posts for user_id 5 successfully
+2024-03-20 17:04:23,123 - INFO - Retrieved articles for user_id 5 successfully
+2024-03-20 17:04:24,267 - INFO - Retrieved user_id for username 'demo' successfully
+2024-03-20 17:04:24,271 - INFO - Retrieved posts for user_id 6 successfully
+2024-03-20 17:04:24,274 - INFO - Retrieved articles for user_id 6 successfully
